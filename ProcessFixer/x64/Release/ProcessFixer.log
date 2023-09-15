@@ -1,0 +1,49 @@
+﻿  cProcessor.cpp
+C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\ProcessFixer\cProcessor.cpp(48,26): warning C4267: 'return': conversion from 'size_t' to 'BOOL', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xutility(6219,19): warning C4244: 'argument': conversion from 'wchar_t' to 'unsigned char', possible loss of data
+C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\ProcessFixer\cProcessor.cpp(46,2): message : see reference to function template instantiation '_InIt std::find_if<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,cProcessor::IsTargetAvailable::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Elem=wchar_t,
+              _Pr=cProcessor::IsTargetAvailable::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xutility(6219,19): warning C4244: 'argument': conversion from '_Ty' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty=wchar_t
+          ]
+C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\ProcessFixer\cProcessor.cpp(46,2): message : see reference to function template instantiation '_InIt std::find_if<std::reverse_iterator<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>>,cProcessor::IsTargetAvailable::<lambda_2>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::reverse_iterator<std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>>,
+              _Elem=wchar_t,
+              _Pr=cProcessor::IsTargetAvailable::<lambda_2>
+          ]
+  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xutility(6219,19): warning C4244: 'argument': conversion from 'wchar_t' to 'unsigned char', possible loss of data
+C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\ProcessFixer\Source.cpp(204,6): message : see reference to function template instantiation '_InIt std::find_if<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,main::<lambda_1>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Elem=wchar_t,
+              _Pr=main::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xutility(6219,19): warning C4244: 'argument': conversion from '_Ty' to 'unsigned char', possible loss of data
+          with
+          [
+              _Ty=wchar_t
+          ]
+C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\ProcessFixer\Source.cpp(204,6): message : see reference to function template instantiation '_InIt std::find_if<std::reverse_iterator<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>>,main::<lambda_2>>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=std::reverse_iterator<std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>>,
+              _Elem=wchar_t,
+              _Pr=main::<lambda_2>
+          ]
+  Utilities.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 412 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ProcessFixer.vcxproj -> C:\Users\ASUS\Documents\Visual Studio 2022\Projects\ProcessFixer\x64\Release\ProcessFixer.exe

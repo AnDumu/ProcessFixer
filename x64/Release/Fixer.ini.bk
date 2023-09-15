@@ -1,0 +1,8 @@
+[INIT]
+Target=arguments.exe
+Arguments=/silent /tkb -f
+Items=1
+
+[Item1]
+Offset=0x1DE6
+Value=0x90, 0x90, 0x90
