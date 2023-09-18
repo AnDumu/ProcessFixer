@@ -162,7 +162,7 @@ int main(const int argc, char* argv[])
 	{
 		/*
 		[Item1]
-		Address=MultiKeyboard.exe+0x9B43C
+		Address=0x9B43C
 		Value=0x14,0x0,0x0,0x0
 		*/
 
